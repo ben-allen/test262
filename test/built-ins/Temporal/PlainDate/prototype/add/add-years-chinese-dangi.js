@@ -39,11 +39,11 @@ for (const calendar of calendars){
   TemporalHelpers.assertPlainDate(
     Temporal.PlainDate.from(
       {year: 1938,
-        monthCode:"M06L",
+        monthCode:"M07L",
         day: 30,
         calendar
       }).add(p1y),
-        1939, 6, "M06", 29, "add 1 year from leap day in leap month"
+        1939, 7, "M07", 29, "add 1 year from leap day in leap month"
   );
 }
 
